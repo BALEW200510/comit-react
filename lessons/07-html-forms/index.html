@@ -1,0 +1,38 @@
+<html>
+    <header><title>Balew Mekonnen</title></header>
+    <h1>Creat User</h1>
+    <hr>
+    <form action="creat-user.html" method="get">
+        <label>Email</label>
+        <input type="email" name="email" required/></br>
+        <label>User Name</label>
+        <input type="text" name="username" size="30" maxlength="12" required/></br>
+        <label>Password</label>
+        <input type="password" name="password" size="30" maxlength="8" required/></br>
+        <label><strong>BIO:</strong></label></br>
+        <textarea name="body">give a brief description of this user</textarea> </br>
+        
+    <fieldset> 
+        <legend>Interest</legend>
+        <label>Select your favourite superhero:</label>
+        <input type="radio" name="Hero" value="Superman" /> Superman
+        <input type="radio" name="Hero" value="Batman" /> Batman
+        <input type="radio" name="Hero" value="Wonder Woman" checked/> WOnder Woman
+        <input type="radio" name="Hero" value="Flash" /> Flash
+        <input type="radio" name="Hero" value="Thor" /> Thor
+        <input type="radio" name="Hero" value="Hulk" /> Hulk </br>
+   
+        <label>Select your favourite video game:</label>
+        <input type="checkbox" name="wizards" value="Fifa" checked />
+            Fifa
+         <input type="checkbox" name="wizards" value="NHL" />
+            NHL
+         <input type="checkbox" name="wizards" value="WResident Evil"/>
+        Resident Evil
+        <input type="checkbox" name="wizards" value="Uncharted" checked />
+        Uncharted
+    </fieldset>
+        <input type="hidden" id="custId" name="userid" value="2300">
+        <input type="submit" value="Create User" />
+    </form>
+</html>
